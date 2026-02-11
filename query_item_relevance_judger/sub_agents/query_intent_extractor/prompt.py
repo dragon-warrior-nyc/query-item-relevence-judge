@@ -31,8 +31,10 @@ Task Instructions:
    - Keep your explanation concise: 2-3 sentences maximum.
    - Be specific about the type of product, information, or category they're seeking.
 
+3. Always return valid JSON without markdown formatting.
+
 Output Format:
-Provide your analysis as a JSON object with the following structure:
+Provide your analysis as a JSON object with the following structure
 {
   "category": "PRODUCT | INFORMATIONAL | NONSENSICAL",
   "intent_explanation": "2-3 sentence explanation of what the customer is looking for"
